@@ -1,3 +1,3 @@
 variable "bucket_name" {
-    default = "githubactions-bucket"
+    default = "ln-githubactions-bucket"
 }
