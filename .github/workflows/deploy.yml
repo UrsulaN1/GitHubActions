@@ -1,8 +1,8 @@
 
-name: Deploy Terraform Code
+name: Deploy Code to Feature Branch with Pull Request
 
 on:
-  push:
+  pull_request:
     branches:
       - main  # Set a branch name to trigger deployment
 
@@ -34,3 +34,7 @@ jobs:
 
       - name: Apply Terraform configuration
         run: terraform apply -auto-approve
+
+
+
+
