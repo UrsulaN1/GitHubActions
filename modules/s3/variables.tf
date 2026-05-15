@@ -1,3 +1,3 @@
 variable "bucket_name" {
-    default = "webhook-bucket"
+    default = "ln-webhook-bucket"
 }
