@@ -1,3 +1,3 @@
 locals{
-    ec2_tag = "jenkin-instance"
+    ec2_tag = "jenkins-instance"
 }
