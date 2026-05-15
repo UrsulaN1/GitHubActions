@@ -1,4 +1,4 @@
-resource "aws_iam_user" "gitbuhactions_user" {
-    name = "GitHubActions-user"
+resource "aws_iam_user" "webhook_user" {
+    name = "webhook-user"
 
 }
