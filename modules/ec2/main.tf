@@ -4,6 +4,6 @@ resource "aws_instance" "class" {
   
 
   tags = {
-    Name = local.ec2_tag
+    Name = var.instance_name
   }
 }
