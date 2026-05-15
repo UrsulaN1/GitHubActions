@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "class" {
+resource "aws_s3_bucket" "webhook_bucket" {
   bucket = var.bucket_name
 
   tags = {
